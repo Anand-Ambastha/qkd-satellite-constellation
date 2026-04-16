@@ -331,5 +331,3 @@ If you use this code in academic work, please cite:
   url     = {https://github.com/yourhandle/qkd-satellite-constellation}
 }
 ```
-#   q k d - s a t e l l i t e - c o n s t e l l a t i o n  
- 
