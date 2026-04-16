@@ -324,10 +324,20 @@ MIT — see [LICENSE](LICENSE)
 If you use this code in academic work, please cite:
 
 ```bibtex
-@software{qkd_constellation_2024,
+@software{qkd_constellation_2025,
   author  = {Anand Kumar},
   title   = {QKD Satellite Constellation Simulator},
   year    = {2025},
-  url     = {https://github.com/yourhandle/qkd-satellite-constellation}
+  url     = {https://github.com/Anand-Ambastha/qkd-satellite-constellation}
+}
+```
+
+```bibtex
+@article{Kumar2025QKD,
+  title={Design and simulation of a decoy-state BB84 satellite QKD constellation for Indian ground stations},
+  author={Kumar, Anand and Malhotra, Yugnanda and Gupta, Aayush and Parikh, Jolly},
+  journal={International Journal of Information Technology},
+  year={2025},
+  doi={10.1007/s41870-025-02860-y}
 }
 ```
