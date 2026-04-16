@@ -312,10 +312,14 @@ python -m unittest discover -s tests -v
 7. Montenbruck, O. & Gill, E. *Satellite Orbits: Models, Methods and Applications.* Springer (2000)
 
 ---
+## License - see [LICENSE](LICENSE)
 
-## License
+This project is released under a **custom academic-use restricted license**.
 
-MIT — see [LICENSE](LICENSE)
+- Viewing and learning from the code is allowed  
+- Any usage, modification, or redistribution requires explicit permission  
+
+For permissions: **anandambastha72@gmail.com**
 
 ---
 

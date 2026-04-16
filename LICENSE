@@ -1,21 +1,36 @@
-MIT License
+QKD Satellite Constellation Simulator License
+Copyright (c) 2025 Anand Kumar
 
-Copyright (c) 2024
+1. Ownership
+This software, associated documentation, and research artifacts (the “Work”) are the intellectual property of the author.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+2. Permitted Use
+You are permitted to:
+- View and study the source code for personal, educational, and academic reference
+- Cite the associated research paper in academic work
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+3. Restricted Use
+You are NOT permitted to, without prior written permission from the author:
+- Use the Work in any academic submission (projects, papers, theses)
+- Use the Work in commercial or production systems
+- Modify, adapt, or build derivative works based on this code
+- Redistribute the Work in any form (modified or unmodified)
+- Incorporate this Work into other repositories or software systems
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+4. Permission Requests
+Requests for usage permissions must be directed to:
+anandambastha72@gmail.com
+
+5. Citation Requirement
+If this Work influences your research, you must cite:
+
+Kumar, A. et al. (2025)
+Design and simulation of a decoy-state BB84 satellite QKD constellation for Indian ground stations
+International Journal of Information Technology
+DOI: https://doi.org/10.1007/s41870-025-02860-y
+
+6. No Warranty
+The Work is provided “as is”, without warranty of any kind, express or implied.
+
+7. Termination
+Any violation of these terms automatically terminates your rights under this license.
