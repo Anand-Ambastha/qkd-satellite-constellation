@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qkd-satellite-constellation"
+version = "1.0.0"
+description = "Decoy-State BB84 QKD Satellite Constellation Simulator for India Ground Network"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+
+authors = [
+  { name = "Anand Ambastha (aka Verma / Kumar)", email = "anandambastha72@gmail.com" }
+]
+
+keywords = [
+  "quantum key distribution", "QKD", "satellite", "BB84",
+  "decoy state", "Walker constellation", "orbital mechanics",
+  "quantum cryptography", "free-space optical"
+]
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Physics",
+  "Topic :: Scientific/Engineering :: Astronomy",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "matplotlib>=3.7",
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dashboard = ["streamlit>=1.30", "plotly>=5.18"]
+dev       = ["pytest>=7.4", "pytest-cov>=4.1"]
+all       = ["streamlit>=1.30", "plotly>=5.18", "pytest>=7.4", "pytest-cov>=4.1"]
+
+[project.scripts]
+qkd-sim = "qkd_constellation.cli:main"
+
+[project.urls]
+Homepage   = "https://github.com/Anand-Ambastha/qkd-satellite-constellation"
+Repository = "https://github.com/Anand-Ambastha/qkd-satellite-constellation"
+Paper = "https://link.springer.com/article/10.1007/s41870-025-02860-y"
+Issues     = "https://github.com/Anand-Ambastha/qkd-satellite-constellation/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths    = ["tests"]
+addopts      = "-v --tb=short"
+
+[tool.coverage.run]
+source = ["src"]
+omit   = ["*/tests/*", "*/__init__.py"]
+
+[tool.uv.workspace]
+members = [
+    "venv",
+]

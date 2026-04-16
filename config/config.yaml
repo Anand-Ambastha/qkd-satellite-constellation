@@ -1,0 +1,49 @@
+# QKD Satellite Constellation — Default Configuration
+# ─────────────────────────────────────────────────────
+# This file mirrors all AppConfig defaults.
+# Edit and pass via:  python cli/simulate.py --config config/config.yaml
+
+constellation:
+  num_planes:       3
+  sats_per_plane:   4
+  altitude_km:      600.0
+  inclination_deg:  97.5
+  eccentricity:     0.0002
+  arg_perigee_deg:  90.0
+
+qkd:
+  mu_signal:           0.5
+  mu_decoy:            0.1
+  f_ec:                1.16
+  qber_base:           0.02
+  qber_loss_slope:     0.08
+  aperture_rx_m:       0.50
+  beam_divergence_rad: 1.0e-5   # 10 μrad
+  base_loss_db:        5.0
+  loss_threshold_db:   60.0
+
+simulation:
+  duration_min:        1440   # 24 hours
+  step_min:            5
+  min_elevation_deg:   10.0
+  output_dir:          outputs
+  save_csv:            true
+  save_plots:          true
+  dpi:                 300
+
+ground_stations:
+  - name: Hanle
+    lat_deg:  32.78
+    lon_deg:  78.96
+  - name: Dehradun
+    lat_deg:  30.30
+    lon_deg:  78.00
+  - name: MtAbu
+    lat_deg:  24.60
+    lon_deg:  72.70
+  - name: Shillong
+    lat_deg:  25.60
+    lon_deg:  91.80
+  - name: Kodaikanal
+    lat_deg:  10.20
+    lon_deg:  77.40

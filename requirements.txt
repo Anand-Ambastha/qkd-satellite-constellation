@@ -1,0 +1,21 @@
+# QKD Satellite Constellation Simulator — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# ── Core scientific stack ─────────────────────────────────────────────────────
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+scipy>=1.11           # optional — used for advanced statistical analysis
+
+# ── Streamlit dashboard ───────────────────────────────────────────────────────
+streamlit>=1.30
+plotly>=5.18          # interactive charts in dashboard
+
+# ── Configuration ─────────────────────────────────────────────────────────────
+pyyaml>=6.0
+
+astropy>=5.3      
+
+# ── Development / testing ─────────────────────────────────────────────────────
+pytest>=7.4
+pytest-cov>=4.1
